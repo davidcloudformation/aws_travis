@@ -1,5 +1,5 @@
 ## Description
-
+1
 Example repository solving the chicken and egg problem when working with Terraform S3 remote state, where Terraform should provision its own state.
 Disclaimer: This solution is not so easy to wrap your head around so I recommend to read the corresponding [blog post](https://dev.to/frosnerd/continuous-delivery-on-aws-with-terraform-and-travis-ci-3914).
 
@@ -13,6 +13,7 @@ Inspired by [Terraform Bootstrap example](https://github.com/monterail/terraform
 ## Usage
 
 ### Bootstrapping
+
 
 ```bash
 # Create new workspace for bootstrapping
