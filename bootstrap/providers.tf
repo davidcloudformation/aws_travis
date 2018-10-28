@@ -3,7 +3,7 @@ data "aws_region" "current" {}
 data "aws_caller_identity" "current" {}
 
 variable "aws_region" {
-  default = "eu-central-1"
+  default = "us-east-1"
 }
 
 provider "aws" {
